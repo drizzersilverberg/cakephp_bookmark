@@ -124,3 +124,9 @@
         * id
         * name
         * tag_id
+
+## CakePHP Shell
+
+    * `bin/cake` -> view CakePHP app version, paths and available shells
+
+    * `bin/cake server` -> run cakephp server (default: http://localhost:8785)
