@@ -130,3 +130,11 @@
     * `bin/cake` -> view CakePHP app version, paths and available shells
 
     * `bin/cake server` -> run cakephp server (default: http://localhost:8785)
+
+## Bake a CakePHP Project
+
+    * `bin/cake bake` show cakephp bake command list
+    * `bin/cake bake all` show possible model name on your database
+    * `bin/cake bake all users` bake user model, table , controller, templates and tests
+    * `bin/cake bake all bookmarks` bake bookmark model, table , controller, templates and tests
+    * `bin/cake bake all tags` bake tag model, table , controller, templates and tests
