@@ -29,6 +29,12 @@ class BookmarksController extends AppController
         $this->set('_serialize', ['bookmarks']);
     }
 
+    public function export()
+    {
+        $bookmarks = $this->Bookmarks->find('all');
+        $this->set('bookmarks', $bookmarks);
+    }
+
     /**
      * View method
      *
