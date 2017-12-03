@@ -138,3 +138,40 @@
     * `bin/cake bake all users` bake user model, table , controller, templates and tests
     * `bin/cake bake all bookmarks` bake bookmark model, table , controller, templates and tests
     * `bin/cake bake all tags` bake tag model, table , controller, templates and tests
+
+## Working with Models
+
+    object(App\Model\Entity\User) {
+        'created' => object(Cake\I18n\FrozenTime) {
+            'time' => '2015-09-18T23:45:34+00:00',
+            'timezone' => 'UTC',
+            'fixedTimeNow' => false,
+        }
+    }
+
+### ORM
+
+Object-relational mapper: maps database tables and the columns to objects the programmer, language and framework can more easily work with.
+
+### CakePHP ORM
+
+    Table
+        The database table or collection of entities
+
+    Entities
+        A database row or a collection of data that makes up a single record
+
+### Tables Domain
+
+    * Associations
+    * Behaviors
+    * Validation
+    * Database
+
+    `Interaction with the database -- means the table`
+
+### Entities Domain
+
+    * The data for that instance
+
+    `Interaction with the single object -- means the entity`
