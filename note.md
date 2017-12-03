@@ -83,3 +83,19 @@
     via Composer:
     composer create-project --prefer-dist cakephp/app bookmarks
 
+## CakePHP Folder Structure Conventions
+
+    `CakePHP 3 follows PSR-4`
+
+    `PSR-4 is an autoloading standard`
+
+         * `bin` contains shell scripts to use cakephp from command line.
+         * `config` contains configuration setup for application
+         * `logs` is standard location in cakephp to read log files.
+         * `plugins` contains installed cakephp plugins via composer
+         * `src` core code of the application
+            * `console` is cakephp codes that can used in command line
+         * `tests` contains unit testing codes
+         * `tmp` location to store any temporary cakephp files
+         * `vendor`dependencies of the application
+         * `webroot` css, js, images stored here
