@@ -25,7 +25,7 @@ Thumbs.db
 *~ # vim
 *.swp # vim
 *.swo # vim
-*.sublime-* # sublime text
+*.sublime-*
 *.tmlanguage.cache # sublime text & textmate
 *.tmPreferences.cache # sublime text & textmate
 *.stTheme.cache # cache files for sublime text
