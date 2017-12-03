@@ -99,3 +99,28 @@
          * `tmp` location to store any temporary cakephp files
          * `vendor`dependencies of the application
          * `webroot` css, js, images stored here
+
+## CakePHP Naming Conventions
+
+### CakePHP Controllers:
+
+    * tagsController
+    * familiesController
+
+### CakePHP Controllers:
+
+    * tagsTable
+    * familiesTable
+
+### CakePHP Entities:
+
+    * tag
+    * family
+
+### CakePHP Database Tables
+
+    * tags
+    * families
+        * id
+        * name
+        * tag_id
